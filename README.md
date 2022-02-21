@@ -3,7 +3,7 @@ Mixed Bathroom concurrency problem using Semaphores
 
 21720 Concurrent Programming
 Course 2021 - 2022
-First evaluable exercise: The problem of the mixed bathroom with traffic lights
+First evaluable exercise: The problem of the mixed bathroom with semaphores
 Description of the simulation
 There are 6 women and 6 men working in a law firm and there is only one mixed bathroom. The director has
 set some rules for its use:
@@ -12,7 +12,7 @@ set some rules for its use:
 • They go to the bathroom twice during the working day
 Indications
 Simulation should be programmed using Java or Python languages ​​using synchronization tools
-only traffic lights, both counters and binaries.
+only semaphores, both counters and binaries.
 Women and men should be programmed as concurrent processes, they should be assigned an identifier
 which will be a string. After leaving the bathroom the second time the processes end.
 It must be ensured that there is no starvation (despite the completion of the processes) so a simulation
